@@ -6,27 +6,10 @@ I'm a cybersecurity enthusiast and developer with a passion for building tools t
 
 ## 📜 Table of Contents
 
-- [💻 My Skills](#-my-skills)
+
 - [🚀 My Projects](#-my-projects)
 - [📫 How to Reach Me](#-how-to-reach-me)
 - [🙏 Support My Work](#-support-my-work)
-
-## 💻 My Skills
-
--   **Languages:**
-    -   ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-    -   ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-    -   ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
--   **Tools & Technologies:**
-    -   ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-    -   ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-    -   ![Nmap](https://img.shields.io/badge/Nmap-000000?style=for-the-badge&logo=nmap&logoColor=white)
-    -   ![Metasploit](https://img.shields.io/badge/Metasploit-000000?style=for-the-badge&logo=metasploit&logoColor=white)
--   **Interests:**
-    -   Cybersecurity
-    -   Penetration Testing
-    -   Tool Development
-    -   Open Source
 
 ## 🚀 My Projects
 
@@ -44,7 +27,7 @@ Feel free to connect with me through the following platforms:
 <a href="https://www.linkedin.com/in/philopater-shenouda/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="https://twitter.com/PhilopaterSh"><img src="https://img.shields.io/badge/X-black?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
 <a href="https://medium.com/@PhilopaterSh"><img src="https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
--   **Email**: [philopater.shenouda@example.com](mailto:philopater.shenouda@example.com)
+   **Email**: [philopater.shenouda@example.com](mailto:philopater.shenouda@example.com)
   
 </div>
 
