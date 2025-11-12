@@ -43,7 +43,12 @@ I'm a cybersecurity enthusiast and developer with a passion for building tools t
 
 ## 📫 How to Reach Me
 
-You can reach me on the platforms linked above.
+Feel free to connect with me through the following platforms:
+
+-   **LinkedIn**: [Philopater Shenouda](https://www.linkedin.com/in/philopater-shenouda/)
+-   **X (Twitter)**: [@PhilopaterSh](https://twitter.com/PhilopaterSh)
+-   **Medium**: [@PhilopaterSh](https://medium.com/@PhilopaterSh)
+-   **Email**: [philopater.shenouda@example.com](mailto:philopater.shenouda@example.com)
 
 ## 🙏 Support My Work
 
