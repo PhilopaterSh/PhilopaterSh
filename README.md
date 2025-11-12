@@ -27,7 +27,7 @@ Feel free to connect with me through the following platforms:
 <a href="https://www.linkedin.com/in/philopater-shenouda/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="https://twitter.com/PhilopaterSh"><img src="https://img.shields.io/badge/X-black?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
 <a href="https://medium.com/@PhilopaterSh"><img src="https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
-   **Email**: [philopater.shenouda@example.com](mailto:philopater.shenouda@example.com)
+- **Email**: [philopater.shenouda@example.com](mailto:philopater.shenouda@example.com)
   
 </div>
 
