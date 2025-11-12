@@ -2,13 +2,7 @@
 
 I'm a cybersecurity enthusiast and developer with a passion for building tools to make the internet a safer place.
 
-<div align="center">
 
-<a href="https://www.linkedin.com/in/philopater-shenouda/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="https://twitter.com/PhilopaterSh"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
-<a href="https://medium.com/@PhilopaterSh"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
-
-</div>
 
 ## 📜 Table of Contents
 
@@ -45,9 +39,13 @@ I'm a cybersecurity enthusiast and developer with a passion for building tools t
 
 Feel free to connect with me through the following platforms:
 
--   **LinkedIn**: [Philopater Shenouda](https://www.linkedin.com/in/philopater-shenouda/)
--   **X (Twitter)**: [@PhilopaterSh](https://twitter.com/PhilopaterSh)
--   **Medium**: [@PhilopaterSh](https://medium.com/@PhilopaterSh)
+<div align="center">
+
+<a href="https://www.linkedin.com/in/philopater-shenouda/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://twitter.com/PhilopaterSh"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="X"></a>
+<a href="https://medium.com/@PhilopaterSh"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
+
+</div>
 -   **Email**: [philopater.shenouda@example.com](mailto:philopater.shenouda@example.com)
 
 ## 🙏 Support My Work
