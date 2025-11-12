@@ -2,17 +2,9 @@
 
 I'm a cybersecurity enthusiast and developer with a passion for building tools to make the internet a safer place.
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/philopater-shenouda/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://twitter.com/PhilopaterSh" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
-  </a>
-  <a href="https://medium.com/@PhilopaterSh" target="_blank">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium">
-  </a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/philopater-shenouda/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/PhilopaterSh)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@PhilopaterSh)
 
 ## 💻 My Skills
 
@@ -34,20 +26,12 @@ I'm a cybersecurity enthusiast and developer with a passion for building tools t
 
 ## 📊 My GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PhilopaterSh&show_icons=true&theme=radical" alt="Philopater's GitHub Stats">
-</p>
+![Philopater's GitHub Stats](https://github-readme-stats.vercel.app/api?username=PhilopaterSh&show_icons=true&theme=radical)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhilopaterSh&layout=compact&theme=radical" alt="Top Langs">
-</p>
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=PhilopaterSh&layout=compact&theme=radical)
 
 ## 📫 How to Reach Me
 
 You can reach me on the platforms linked above.
 
-<p align="left">
-  <a href="https://www.buymeacoffee.com/PhilopaterSh" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 217px !important;" >
-  </a>
-</p>
+[<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="217" height="50">](https://www.buymeacoffee.com/PhilopaterSh)
