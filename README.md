@@ -32,7 +32,7 @@ I'm a cybersecurity enthusiast and developer with a passion for building tools t
 
 -   [**Ph.Sh-Subdomain**](https://github.com/PhilopaterSh/Ph.Sh-Subdomain): A fast and concurrent subdomain enumeration tool written in Go.
 -   [**Ph.Sh_URL**](https://github.com/PhilopaterSh/Ph.Sh_URL): A powerful and concurrent open-source intelligence (OSINT) tool for URL discovery.
--   [**Tools_Install**](https://github.com/PhilopaterSh/Tools_Install): A script to automate the installation of various reconnaissance and security tools.
+-   [**Tools_Install**](https://github.com/PhilopaterSh/Kali_Tools_After_Install): A script to automate the installation of various reconnaissance and security tools.
 
 
 ## 📫 How to Reach Me
@@ -41,12 +41,13 @@ Feel free to connect with me through the following platforms:
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/philopater-shenouda/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="https://twitter.com/PhilopaterSh"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="X"></a>
-<a href="https://medium.com/@PhilopaterSh"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
-
-</div>
+<a href="https://www.linkedin.com/in/philopater-shenouda/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://twitter.com/PhilopaterSh"><img src="https://img.shields.io/badge/X-black?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+<a href="https://medium.com/@PhilopaterSh"><img src="https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
 -   **Email**: [philopater.shenouda@example.com](mailto:philopater.shenouda@example.com)
+  
+</div>
+
 
 ## 🙏 Support My Work
 
