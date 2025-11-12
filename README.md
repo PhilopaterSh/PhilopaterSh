@@ -2,9 +2,20 @@
 
 I'm a cybersecurity enthusiast and developer with a passion for building tools to make the internet a safer place.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/philopater-shenouda/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/PhilopaterSh)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@PhilopaterSh)
+<div align="center">
+
+<a href="https://www.linkedin.com/in/philopater-shenouda/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://twitter.com/PhilopaterSh"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
+<a href="https://medium.com/@PhilopaterSh"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
+
+</div>
+
+## 📜 Table of Contents
+
+- [💻 My Skills](#-my-skills)
+- [🚀 My Projects](#-my-projects)
+- [📫 How to Reach Me](#-how-to-reach-me)
+- [🙏 Support My Work](#-support-my-work)
 
 ## 💻 My Skills
 
@@ -23,19 +34,12 @@ I'm a cybersecurity enthusiast and developer with a passion for building tools t
     -   Tool Development
     -   Open Source
 
-<!--
 ## 🚀 My Projects
 
--   [Project 1](link-to-project-1): A brief description of project 1.
--   [Project 2](link-to-project-2): A brief description of project 2.
--   [Project 3](link-to-project-3): A brief description of project 3.
--->
+-   [**Ph.Sh-Subdomain**](https://github.com/PhilopaterSh/Ph.Sh-Subdomain): A fast and concurrent subdomain enumeration tool written in Go.
+-   [**Ph.Sh_URL**](https://github.com/PhilopaterSh/Ph.Sh_URL): A powerful and concurrent open-source intelligence (OSINT) tool for URL discovery.
+-   [**Tools_Install**](https://github.com/PhilopaterSh/Tools_Install): A script to automate the installation of various reconnaissance and security tools.
 
-## 📊 My GitHub Stats
-
-![Philopater's GitHub Stats](https://github-readme-stats.vercel.app/api?username=PhilopaterSh&show_icons=true&theme=radical)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=PhilopaterSh&layout=compact&theme=radical)
 
 ## 📫 How to Reach Me
 
@@ -45,4 +49,8 @@ You can reach me on the platforms linked above.
 
 If you find my work useful, please consider supporting me. It helps me to dedicate more time to open-source projects.
 
+<div align="center">
+
 [<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="217" height="50">](https://www.buymeacoffee.com/PhilopaterSh)
+
+</div>
