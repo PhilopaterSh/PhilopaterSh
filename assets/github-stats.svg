@@ -1,0 +1,11 @@
+<svg width="450" height="150" viewBox="0 0 450 150" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="449" height="149" rx="10" fill="#02060a" stroke="#1e293b" />
+  <text x="25" y="30" fill="#00f2ff" font-size="16" font-weight="700">PhilopaterSh's GitHub Stats</text>
+  
+    <text x="25" y="60" fill="#94a3b8" font-size="14">⭐ Total Stars</text>
+    <text x="420" y="60" fill="#ffffff" font-size="14" font-weight="600" text-anchor="end">3</text>
+    <text x="25" y="88" fill="#94a3b8" font-size="14">📦 Public Repos</text>
+    <text x="420" y="88" fill="#ffffff" font-size="14" font-weight="600" text-anchor="end">14</text>
+    <text x="25" y="116" fill="#94a3b8" font-size="14">👥 Followers</text>
+    <text x="420" y="116" fill="#ffffff" font-size="14" font-weight="600" text-anchor="end">10</text>
+</svg>

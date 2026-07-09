@@ -1,0 +1,29 @@
+<svg width="450" height="216" viewBox="0 0 450 216" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="449" height="215" rx="10" fill="#02060a" stroke="#1e293b" />
+  <text x="25" y="30" fill="#00f2ff" font-size="16" font-weight="700">Most Used Languages</text>
+  
+    <text x="25" y="55" fill="#ffffff" font-size="13">Python</text>
+    <rect x="150" y="44" width="260" height="10" rx="5" fill="#1e293b" />
+    <rect x="150" y="44" width="200.2" height="10" rx="5" fill="#3572A5" />
+    <text x="420" y="55" fill="#94a3b8" font-size="12" text-anchor="end">77.0%</text>
+    <text x="25" y="81" fill="#ffffff" font-size="13">PHP</text>
+    <rect x="150" y="70" width="260" height="10" rx="5" fill="#1e293b" />
+    <rect x="150" y="70" width="42.1" height="10" rx="5" fill="#0077ff" />
+    <text x="420" y="81" fill="#94a3b8" font-size="12" text-anchor="end">16.2%</text>
+    <text x="25" y="107" fill="#ffffff" font-size="13">HTML</text>
+    <rect x="150" y="96" width="260" height="10" rx="5" fill="#1e293b" />
+    <rect x="150" y="96" width="7.8" height="10" rx="5" fill="#e34c26" />
+    <text x="420" y="107" fill="#94a3b8" font-size="12" text-anchor="end">3.0%</text>
+    <text x="25" y="133" fill="#ffffff" font-size="13">Cython</text>
+    <rect x="150" y="122" width="260" height="10" rx="5" fill="#1e293b" />
+    <rect x="150" y="122" width="6.8" height="10" rx="5" fill="#0077ff" />
+    <text x="420" y="133" fill="#94a3b8" font-size="12" text-anchor="end">2.6%</text>
+    <text x="25" y="159" fill="#ffffff" font-size="13">C</text>
+    <rect x="150" y="148" width="260" height="10" rx="5" fill="#1e293b" />
+    <rect x="150" y="148" width="2.1" height="10" rx="5" fill="#0077ff" />
+    <text x="420" y="159" fill="#94a3b8" font-size="12" text-anchor="end">0.8%</text>
+    <text x="25" y="185" fill="#ffffff" font-size="13">CSS</text>
+    <rect x="150" y="174" width="260" height="10" rx="5" fill="#1e293b" />
+    <rect x="150" y="174" width="1.0" height="10" rx="5" fill="#563d7c" />
+    <text x="420" y="185" fill="#94a3b8" font-size="12" text-anchor="end">0.4%</text>
+</svg>
