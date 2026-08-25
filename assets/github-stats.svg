@@ -5,7 +5,7 @@
     <text x="25" y="60" fill="#94a3b8" font-size="14">⭐ Total Stars</text>
     <text x="420" y="60" fill="#ffffff" font-size="14" font-weight="600" text-anchor="end">3</text>
     <text x="25" y="88" fill="#94a3b8" font-size="14">📦 Public Repos</text>
-    <text x="420" y="88" fill="#ffffff" font-size="14" font-weight="600" text-anchor="end">14</text>
+    <text x="420" y="88" fill="#ffffff" font-size="14" font-weight="600" text-anchor="end">13</text>
     <text x="25" y="116" fill="#94a3b8" font-size="14">👥 Followers</text>
     <text x="420" y="116" fill="#ffffff" font-size="14" font-weight="600" text-anchor="end">11</text>
 </svg>
