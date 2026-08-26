@@ -8,8 +8,8 @@
     <text x="420" y="55" fill="#94a3b8" font-size="12" text-anchor="end">79.1%</text>
     <text x="25" y="81" fill="#ffffff" font-size="13">PHP</text>
     <rect x="150" y="70" width="260" height="10" rx="5" fill="#1e293b" />
-    <rect x="150" y="70" width="43.4" height="10" rx="5" fill="#0077ff" />
-    <text x="420" y="81" fill="#94a3b8" font-size="12" text-anchor="end">16.7%</text>
+    <rect x="150" y="70" width="43.2" height="10" rx="5" fill="#0077ff" />
+    <text x="420" y="81" fill="#94a3b8" font-size="12" text-anchor="end">16.6%</text>
     <text x="25" y="107" fill="#ffffff" font-size="13">Cython</text>
     <rect x="150" y="96" width="260" height="10" rx="5" fill="#1e293b" />
     <rect x="150" y="96" width="7.0" height="10" rx="5" fill="#0077ff" />
