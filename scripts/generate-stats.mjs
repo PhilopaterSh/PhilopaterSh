@@ -2,6 +2,11 @@
 // README, using only the GitHub REST API and Node's built-in fetch — no
 // third-party rendering service or npm dependency, so nothing outside this
 // repo's own commit history can break or compromise the cards.
+// Render helpers are exported so a local preview can render mock data without
+// touching the API; main() only runs when this file is executed directly.
+
+import { mkdir, writeFile } from "node:fs/promises";
+import { pathToFileURL } from "node:url";
 
 const USERNAME = "PhilopaterSh";
 const TOKEN = process.env.GITHUB_TOKEN;
@@ -16,6 +21,8 @@ const THEME = {
   bar: "#0077ff",
 };
 
+const FONT = "Segoe UI, Helvetica, Arial, sans-serif";
+
 // Linguist colors for languages likely to appear in this account's repos;
 // anything else falls back to THEME.bar.
 const LANG_COLORS = {
@@ -28,6 +35,8 @@ const LANG_COLORS = {
   CSS: "#563d7c",
   HTML: "#e34c26",
   Dockerfile: "#384d54",
+  PHP: "#777bb4",
+  Cython: "#fedf5b",
 };
 
 /**
@@ -72,8 +81,10 @@ async function fetchOwnedRepos() {
  */
 async function fetchTopLanguages(repos) {
   const totals = {};
-  for (const repo of repos) {
-    const langs = await ghGet(`/repos/${USERNAME}/${repo.name}/languages`);
+  const languageLists = await Promise.all(
+    repos.map((repo) => ghGet(`/repos/${USERNAME}/${repo.name}/languages`)),
+  );
+  for (const langs of languageLists) {
     for (const [lang, bytes] of Object.entries(langs)) {
       totals[lang] = (totals[lang] || 0) + bytes;
     }
@@ -92,25 +103,31 @@ function esc(s) {
 
 /**
  * Renders the "GitHub Stats" summary card as an SVG string.
- * @param {{repos: number, stars: number, followers: number}} stats - Values to display.
+ * @param {{repos: number, stars: number, followers: number, topLanguage: string}} stats - Values to display.
  * @returns {string} Complete SVG markup.
  */
-function renderStatsCard(stats) {
+export function renderStatsCard(stats) {
   const rows = [
-    [`⭐ Total Stars`, stats.stars],
-    [`📦 Public Repos`, stats.repos],
-    [`👥 Followers`, stats.followers],
+    ["⭐", "Total Stars", stats.stars],
+    ["📦", "Public Repos", stats.repos],
+    ["👥", "Followers", stats.followers],
+    ["🐍", "Top Language", stats.topLanguage],
   ];
+  const rowHeight = 30;
+  const height = 70 + rows.length * rowHeight + 12;
   const rowsSvg = rows
     .map(
-      ([label, value], i) => `
-    <text x="25" y="${60 + i * 28}" fill="${THEME.muted}" font-size="14">${esc(label)}</text>
-    <text x="420" y="${60 + i * 28}" fill="${THEME.text}" font-size="14" font-weight="600" text-anchor="end">${esc(value)}</text>`,
+      ([icon, label, value], i) => `
+    <text x="34" y="${74 + i * rowHeight}" fill="${THEME.muted}" font-size="14">${icon} ${esc(label)}</text>
+    <text x="424" y="${74 + i * rowHeight}" fill="${THEME.text}" font-size="14" font-weight="600" text-anchor="end">${esc(value)}</text>`,
     )
     .join("");
-  return `<svg width="450" height="150" viewBox="0 0 450 150" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0.5" y="0.5" width="449" height="149" rx="10" fill="${THEME.bg}" stroke="${THEME.border}" />
-  <text x="25" y="30" fill="${THEME.title}" font-size="16" font-weight="700">${esc(USERNAME)}'s GitHub Stats</text>
+  return `<svg width="450" height="${height}" viewBox="0 0 450 ${height}" xmlns="http://www.w3.org/2000/svg" font-family="${FONT}">
+  <defs><clipPath id="statsRound"><rect x="0.5" y="0.5" width="449" height="${height - 1}" rx="10"/></clipPath></defs>
+  <rect x="0.5" y="0.5" width="449" height="${height - 1}" rx="10" fill="${THEME.bg}" stroke="${THEME.border}" />
+  <rect x="0.5" y="0.5" width="6" height="${height - 1}" fill="${THEME.title}" clip-path="url(#statsRound)" />
+  <text x="34" y="34" fill="${THEME.title}" font-size="16" font-weight="700">${esc(USERNAME)}'s GitHub Stats</text>
+  <line x1="34" y1="44" x2="416" y2="44" stroke="${THEME.border}" stroke-width="1" />
   ${rowsSvg}
 </svg>`;
 }
@@ -120,46 +137,65 @@ function renderStatsCard(stats) {
  * @param {[string, number][]} langs - [language, bytes] pairs, most-used first.
  * @returns {string} Complete SVG markup.
  */
-function renderTopLangsCard(langs) {
+export function renderTopLangsCard(langs) {
   const top = langs.slice(0, 6);
   const total = top.reduce((sum, [, bytes]) => sum + bytes, 0) || 1;
+  const rowHeight = 28;
+  const rowsStart = 72;
+  const footerY = rowsStart + top.length * rowHeight + 18;
+  const height = footerY + 18;
   const barsSvg = top
     .map(([lang, bytes], i) => {
       const pct = ((bytes / total) * 100).toFixed(1);
       const color = LANG_COLORS[lang] || THEME.bar;
-      const y = 55 + i * 26;
-      const barWidth = (pct / 100) * 260;
+      const y = rowsStart + i * rowHeight;
+      const barWidth = ((pct / 100) * 240).toFixed(1);
       return `
-    <text x="25" y="${y}" fill="${THEME.text}" font-size="13">${esc(lang)}</text>
-    <rect x="150" y="${y - 11}" width="260" height="10" rx="5" fill="${THEME.border}" />
-    <rect x="150" y="${y - 11}" width="${barWidth.toFixed(1)}" height="10" rx="5" fill="${color}" />
-    <text x="420" y="${y}" fill="${THEME.muted}" font-size="12" text-anchor="end">${pct}%</text>`;
+    <circle cx="33" cy="${y - 4}" r="4.5" fill="${color}" />
+    <text x="44" y="${y}" fill="${THEME.text}" font-size="13">${esc(lang)}</text>
+    <rect x="150" y="${y - 10}" width="240" height="10" rx="5" fill="${THEME.border}" />
+    <rect x="150" y="${y - 10}" width="${barWidth}" height="10" rx="5" fill="${color}" />
+    <text x="424" y="${y}" fill="${THEME.muted}" font-size="12" text-anchor="end">${pct}%</text>`;
     })
     .join("");
-  const height = 45 + top.length * 26 + 15;
-  return `<svg width="450" height="${height}" viewBox="0 0 450 ${height}" xmlns="http://www.w3.org/2000/svg">
+  const footer = langs.length
+    ? `<text x="34" y="${footerY}" fill="${THEME.muted}" font-size="11">Top ${top.length} of ${langs.length} languages across public repos</text>`
+    : "";
+  return `<svg width="450" height="${height}" viewBox="0 0 450 ${height}" xmlns="http://www.w3.org/2000/svg" font-family="${FONT}">
+  <defs><clipPath id="langsRound"><rect x="0.5" y="0.5" width="449" height="${height - 1}" rx="10"/></clipPath></defs>
   <rect x="0.5" y="0.5" width="449" height="${height - 1}" rx="10" fill="${THEME.bg}" stroke="${THEME.border}" />
-  <text x="25" y="30" fill="${THEME.title}" font-size="16" font-weight="700">Most Used Languages</text>
+  <rect x="0.5" y="0.5" width="6" height="${height - 1}" fill="${THEME.title}" clip-path="url(#langsRound)" />
+  <text x="34" y="34" fill="${THEME.title}" font-size="16" font-weight="700">Most Used Languages</text>
+  <line x1="34" y1="44" x2="416" y2="44" stroke="${THEME.border}" stroke-width="1" />
   ${barsSvg}
+  ${footer}
 </svg>`;
 }
 
 async function main() {
-  const { fs } = await import("node:fs/promises").then((m) => ({ fs: m }));
   const user = await ghGet(`/users/${USERNAME}`);
   const repos = await fetchOwnedRepos();
   const stars = repos.reduce((sum, r) => sum + r.stargazers_count, 0);
   const langs = await fetchTopLanguages(repos);
 
-  await fs.mkdir("assets", { recursive: true });
-  await fs.writeFile(
+  await mkdir("assets", { recursive: true });
+  await writeFile(
     "assets/github-stats.svg",
-    renderStatsCard({ repos: user.public_repos, stars, followers: user.followers }),
+    renderStatsCard({
+      repos: user.public_repos,
+      stars,
+      followers: user.followers,
+      topLanguage: langs.length ? langs[0][0] : "—",
+    }),
   );
-  await fs.writeFile("assets/top-langs.svg", renderTopLangsCard(langs));
+  await writeFile("assets/top-langs.svg", renderTopLangsCard(langs));
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+const isDirectRun =
+  process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+if (isDirectRun) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

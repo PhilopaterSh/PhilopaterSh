@@ -1,11 +1,16 @@
-<svg width="450" height="150" viewBox="0 0 450 150" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0.5" y="0.5" width="449" height="149" rx="10" fill="#02060a" stroke="#1e293b" />
-  <text x="25" y="30" fill="#00f2ff" font-size="16" font-weight="700">PhilopaterSh's GitHub Stats</text>
+<svg width="450" height="202" viewBox="0 0 450 202" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs><clipPath id="statsRound"><rect x="0.5" y="0.5" width="449" height="201" rx="10"/></clipPath></defs>
+  <rect x="0.5" y="0.5" width="449" height="201" rx="10" fill="#02060a" stroke="#1e293b" />
+  <rect x="0.5" y="0.5" width="6" height="201" fill="#00f2ff" clip-path="url(#statsRound)" />
+  <text x="34" y="34" fill="#00f2ff" font-size="16" font-weight="700">PhilopaterSh's GitHub Stats</text>
+  <line x1="34" y1="44" x2="416" y2="44" stroke="#1e293b" stroke-width="1" />
   
-    <text x="25" y="60" fill="#94a3b8" font-size="14">⭐ Total Stars</text>
-    <text x="420" y="60" fill="#ffffff" font-size="14" font-weight="600" text-anchor="end">3</text>
-    <text x="25" y="88" fill="#94a3b8" font-size="14">📦 Public Repos</text>
-    <text x="420" y="88" fill="#ffffff" font-size="14" font-weight="600" text-anchor="end">16</text>
-    <text x="25" y="116" fill="#94a3b8" font-size="14">👥 Followers</text>
-    <text x="420" y="116" fill="#ffffff" font-size="14" font-weight="600" text-anchor="end">9</text>
+    <text x="34" y="74" fill="#94a3b8" font-size="14">⭐ Total Stars</text>
+    <text x="424" y="74" fill="#ffffff" font-size="14" font-weight="600" text-anchor="end">3</text>
+    <text x="34" y="104" fill="#94a3b8" font-size="14">📦 Public Repos</text>
+    <text x="424" y="104" fill="#ffffff" font-size="14" font-weight="600" text-anchor="end">16</text>
+    <text x="34" y="134" fill="#94a3b8" font-size="14">👥 Followers</text>
+    <text x="424" y="134" fill="#ffffff" font-size="14" font-weight="600" text-anchor="end">9</text>
+    <text x="34" y="164" fill="#94a3b8" font-size="14">🐍 Top Language</text>
+    <text x="424" y="164" fill="#ffffff" font-size="14" font-weight="600" text-anchor="end">Python</text>
 </svg>
