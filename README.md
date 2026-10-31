@@ -54,7 +54,7 @@ Backed by the Digilians cybersecurity diploma (MCIT × Egyptian Military Academy
 
 ## 🏅 Certifications
 
-- **Huawei HCIA-Datacom V2.0** — Huawei · Oct 2026 *(Credential ID: 010103901855810455291409 — 717/1000, first sitting)*
+- **Huawei HCIA-Datacom V2.0** — Huawei · Oct 2026 *(Credential ID: 010103901855810455291409)*
 - **Fortinet NSE 4 Certified in FortiOS** — Fortinet · Aug 2026 *(Credential ID: 1291801951PS — valid through Aug 2028)*
 - **Google Cybersecurity Professional Certificate** — Google · Apr 2026
 - **ECIH v2 — Certified Incident Handler** — EC-Council · May 2024
