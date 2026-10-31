@@ -2,12 +2,14 @@
 
 <div align="center">
 
-**Huawei HCIA-Datacom certified** | **Penetration Tester Trainee @ Classera** — focused on web application and network security.
+**Huawei HCIA-Datacom & Fortinet NSE 4 certified** | **Penetration Tester Trainee @ Classera** — focused on web application and network security.
 Backed by the Digilians cybersecurity diploma (MCIT × Egyptian Military Academy) and hands-on bug bounty work on HackerOne & Bugcrowd.
 
 [<img src="https://img.shields.io/badge/🌐_View_My_Portfolio-00f2ff?style=for-the-badge&logoColor=white" alt="Portfolio">](https://philopatersh.github.io/Portfolio/)
 
 [<img src="https://img.shields.io/badge/🏅_Huawei_HCIA--Datacom_Certified_(Oct_2026)-c7163b?style=for-the-badge&logo=huawei&logoColor=white" alt="HCIA-Datacom Certified">](https://philopatersh.github.io/Portfolio/)
+
+[<img src="https://img.shields.io/badge/🔥_Fortinet_NSE_4_Certified_in_FortiOS_(Aug_2026)-ee3124?style=for-the-badge&logo=fortinet&logoColor=white" alt="NSE 4 Certified">](https://philopatersh.github.io/Portfolio/)
 
 <img src="https://komarev.com/ghpvc/?username=PhilopaterSh&label=Profile+Views&color=00f2ff&style=flat-square" alt="Profile Views" />
 
@@ -53,9 +55,10 @@ Backed by the Digilians cybersecurity diploma (MCIT × Egyptian Military Academy
 ## 🏅 Certifications
 
 - **Huawei HCIA-Datacom V2.0** — Huawei · Oct 2026 *(Credential ID: 010103901855810455291409 — 717/1000, first sitting)*
+- **Fortinet NSE 4 Certified in FortiOS** — Fortinet · Aug 2026 *(Credential ID: 1291801951PS — valid through Aug 2028)*
+- **Google Cybersecurity Professional Certificate** — Google · Apr 2026
 - **ECIH v2 — Certified Incident Handler** — EC-Council · May 2024
 - **eJPT v1 — Junior Penetration Tester** — INE / Netriders · Aug 2023
-- **Google Cybersecurity Professional Certificate** — Google · Apr 2026
 
 ## 🧰 Skills & Tools
 
