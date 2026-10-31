@@ -13,8 +13,8 @@
     <circle cx="33" cy="96" r="4.5" fill="#777bb4" />
     <text x="44" y="100" fill="#ffffff" font-size="13">PHP</text>
     <rect x="150" y="90" width="240" height="10" rx="5" fill="#1e293b" />
-    <rect x="150" y="90" width="39.1" height="10" rx="5" fill="#777bb4" />
-    <text x="424" y="100" fill="#94a3b8" font-size="12" text-anchor="end">16.3%</text>
+    <rect x="150" y="90" width="39.4" height="10" rx="5" fill="#777bb4" />
+    <text x="424" y="100" fill="#94a3b8" font-size="12" text-anchor="end">16.4%</text>
     <circle cx="33" cy="124" r="4.5" fill="#fedf5b" />
     <text x="44" y="128" fill="#ffffff" font-size="13">Cython</text>
     <rect x="150" y="118" width="240" height="10" rx="5" fill="#1e293b" />
