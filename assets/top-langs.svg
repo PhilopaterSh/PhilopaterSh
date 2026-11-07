@@ -35,5 +35,5 @@
     <rect x="150" y="202" width="240" height="10" rx="5" fill="#1e293b" />
     <rect x="150" y="202" width="1.0" height="10" rx="5" fill="#0077ff" />
     <text x="424" y="212" fill="#94a3b8" font-size="12" text-anchor="end">0.4%</text>
-  <text x="34" y="258" fill="#94a3b8" font-size="11">Top 6 of 20 languages across public repos</text>
+  <text x="34" y="258" fill="#94a3b8" font-size="11">Top 6 of 21 languages across public repos</text>
 </svg>
